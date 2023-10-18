@@ -1,4 +1,5 @@
 "use strict";
+"use client";
 var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
@@ -3138,7 +3139,7 @@ __export(src_exports, {
 module.exports = __toCommonJS(src_exports);
 var import_jsx_runtime = __toESM(require_jsx_runtime());
 function ColorPicker() {
-  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { className: "popover-trigger", style: { backgroundColor: "red" } }) });
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { children: "Test" });
 }
 var src_default = ColorPicker;
 /*! Bundled license information:

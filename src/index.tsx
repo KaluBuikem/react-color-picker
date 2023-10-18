@@ -1,25 +1,8 @@
 "use client";
 import React from "react";
-import { Popover, PopoverTrigger } from "./components/design/popover";
 
 function ColorPicker() {
-  return (
-    <div>
-      <button
-        className="popover-trigger"
-        style={{
-          backgroundColor: "red",
-          width: "24px",
-          height: "24px",
-          borderRadius: "100%",
-        }}
-        aria-haspopup="dialog"
-      />
-      <div>
-        <div></div>
-      </div>
-    </div>
-  );
+  return <div>Test</div>;
 }
 
 export default ColorPicker;
